@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" onclick="calcSum()" value="сложение">
+    <input type="button" onclick="calcDifference()" value="вычитание">
+    <input type="button" onclick="calcProduct()" value="умножение">
+    <input type="button" onclick="calcQuotient()" value="деление">
+
+    <script>
+        function calcSum() {
+            let x = prompt('Введите число:', '');
+            let y = prompt('Введите число:', '');
+            alert(Number(x) + Number(y));
+        }
+        function calcDifference() {
+            let x = prompt('Введите число:', '');
+            let y = prompt('Введите число:', '');
+            alert(Number(x) - Number(y));
+        }
+        function calcProduct() {
+            let x = prompt('Введите число:', '');
+            let y = prompt('Введите число:', '');
+            alert(Number(x) * Number(y));
+        }
+        function calcQuotient() {
+            let x = prompt('Введите число:', '');
+            let y = prompt('Введите число:', '');
+            alert(Number(x) / Number(y));
+        }
+    </script>
+</body>
+</html>
